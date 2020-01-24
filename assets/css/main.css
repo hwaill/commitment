@@ -3,6 +3,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -174,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #jokeHighlight {
-  color: rgb(248, 127, 26);
+  color: rgb(235, 25, 58);
 }
 
 #answerHolder {
@@ -195,13 +196,68 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.085);
 }
 
-#bicycle {
-  position: absolute;
-  width: 1000px;
-  left: 50%;
-  top: 79%;
+#skyGradient {
+  background: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 100%) 0%,
+    hsl(220.18, 2.88%, 99.38%) 8.1%,
+    hsl(220.17, 2.9%, 97.61%) 15.5%,
+    hsl(220.16, 2.95%, 94.82%) 22.5%,
+    hsl(220.14, 3.01%, 91.09%) 29%,
+    hsl(220.12, 3.09%, 86.51%) 35.3%,
+    hsl(220.08, 3.2%, 81.14%) 41.2%,
+    hsl(220.03, 3.35%, 75.04%) 47.1%,
+    hsl(219.96, 3.53%, 68.27%) 52.9%,
+    hsl(219.86, 3.79%, 60.89%) 58.8%,
+    hsl(219.69, 4.14%, 52.98%) 64.7%,
+    hsl(219.4, 5.77%, 44.61%) 71%,
+    hsl(218.86, 9.66%, 35.93%) 77.5%,
+    hsl(217.68, 17.86%, 27.24%) 84.5%,
+    hsl(214.68, 37.57%, 19.13%) 91.9%,
+    hsl(209.41, 71.83%, 13.92%) 100%
+  );
+  width: 100%;
+  height: 400px;
 }
 
-#b1 {
+#sky {
+  background: hsl(209.41, 71.83%, 13.92%);
+  height: 700px;
+  position: relative;
+}
 
+#moon {
+  width: 220px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+#treeSwing {
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+}
+
+#tree {
+  position: absolute;
+  width:100%;
+  bottom:0;
+}
+
+#swing {
+  position: absolute;
+  width: 40px;
+  right: 105px;
+  bottom: 60px;
+
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center 0;
+}
+
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
 }
