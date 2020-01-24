@@ -153,3 +153,55 @@ h1, h2, h3, h4, h5, h6 {
   left: calc(100% - 75px);
   background-color: rgba(235, 25, 58, 0.2);
 }
+
+#jokePage {
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+#jokeHolder {
+  max-width: 600px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#joke {
+  font-size: 50px;
+}
+
+#jokeHighlight {
+  color: rgb(248, 127, 26);
+}
+
+#answerHolder {
+  max-width: 600px;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#answer {
+  font-weight: 400;
+  font-size: 150px;
+}
+
+#answerHighlight {
+  color: rgba(0, 0, 0, 0.085);
+}
+
+#bicycle {
+  position: absolute;
+  width: 1000px;
+  left: 50%;
+  top: 79%;
+}
+
+#b1 {
+
+}
