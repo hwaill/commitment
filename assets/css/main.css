@@ -441,13 +441,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #weather {
+  max-width: 400px;
   font-size: 60px;
   margin: 0;
   color: white;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  left: 10%;
+  transform: translateY(-50%);
 }
 
 #snow {
@@ -472,4 +473,14 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: 0;
   background: rgb(61, 31, 10);
+}
+
+#swing2 {
+  position: absolute;
+  width: 40px;
+  right: 105px;
+  bottom: 60px;
+
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center 0;
 }
