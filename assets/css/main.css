@@ -366,3 +366,16 @@ h1, h2, h3, h4, h5, h6 {
 #story {
   font-size: 50px;
 }
+
+#tearImageHolder {
+  height: 250px;
+  position: relative;
+}
+
+#tearSearchImage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 0 13px black;
+}
