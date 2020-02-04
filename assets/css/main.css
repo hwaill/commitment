@@ -379,3 +379,24 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(-50%) translateY(-50%);
   box-shadow: 0 0 13px black;
 }
+
+#woah {
+  height: 400px;
+  text-align: center;
+}
+
+#woahTitle {
+  font-weight: bold;
+  font-size: 400px;
+  margin: 0px 0px 10px;
+  line-height: 1;
+}
+
+#anagramHolder {
+  text-align: center;
+}
+
+#anagram {
+  font-size: 35px;
+  margin: 0;
+}
