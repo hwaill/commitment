@@ -349,6 +349,13 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+#aboutMeImage {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  box-shadow: 0 0 13px black;
+}
+
 #aboutMeTitle {
   font-size: 70px;
   margin: 0px 0px 10px;
