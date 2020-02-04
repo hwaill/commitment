@@ -492,3 +492,18 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(61, 31, 10);
   overflow: hidden;
 }
+
+#rootHolder {
+  position:absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+}
+
+#roots {
+  transform: rotate(180deg);
+  position: absolute;
+  width:100%;
+  top:0;
+}
