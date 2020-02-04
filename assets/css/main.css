@@ -243,6 +243,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 500px;
 }
 
+#house {
+  position: absolute;
+  bottom: -10px;
+  left: 65%;
+  transform: translateX(-50%);
+  width: 100px;
+}
+
 #tree {
   position: absolute;
   width:100%;
