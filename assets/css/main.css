@@ -309,8 +309,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .circle {
-  width: 30vh;
-  height: 30vh;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -319,17 +319,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #cir1 {
-  background: rgba(0, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   left: 35%;
 
 }
 
 #cir2 {
-  background: rgba(255, 0, 255, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   left: 50%;
 }
 
 #cir3 {
-  background: rgba(255, 255, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   left: 65%;
 }
